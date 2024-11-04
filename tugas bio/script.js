@@ -89,9 +89,10 @@ function renderTrendingNews() {
      
      const trendingNewsHTML = `
          <h3>Trending News</h3>
-         <ul class="trending-news">
-             <li><a href="#">News Article 1</a></li>
-             <li><a href="#">News Article 2</a></li>
+          <ul class="trending-news">
+             <li><a href="https://www.instagram.com/afalahraflii/">Instagram</a></li>
+             <li><a href="https://www.linkedin.com/in/afalah-rafli-220878264/">Linkedln</a></li>
+             <li><a href="https://www.youtube.com/@yuoknowho">Youtube</a></li>
          </ul>`;
      
      rightSidebar.innerHTML = trendingNewsHTML;
